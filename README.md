@@ -15,9 +15,9 @@ Keep everything in the unpacked folder together. `PLAYING.txt` inside explains j
 
 ## Playing
 
-The game is played on a server run by whoever invited you; ask them for its address. In the game,
-enter that address, the port (2456 unless told otherwise) and your name, then **Join**. Everyone must
-use the same release as the server.
+The main menu fills in the public server's address (45.63.94.202, port 2456): type your name and press
+**Join**. To play on someone else's server, type the address and port they gave you instead. Everyone
+must use a release that speaks the same network protocol as the server.
 
 Each match is two rounds. One team hunts while the other runs, then they swap. Hunters tag Runners
 (E or left click; the crosshair turns green when a tag will land); tagged Runners are frozen. Hunters win
