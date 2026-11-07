@@ -16,7 +16,7 @@ Keep everything in the unpacked folder together. `PLAYING.txt` inside explains j
 ## Playing
 
 The main menu fills in the public server's address (45.63.94.202, port 2456): type your name and press
-**Join**. To play on someone else's server, type the address and port they gave you instead. Everyone
+**Join**. **Public 1v1 server**, **Public 2v2 server** and **Public 3v3 server** join the one-on-one, two-a-side and three-a-side servers on the same address (ports 2457, 2458 and 2459). To play on someone else's server, type the address and port they gave you instead. Everyone
 must use a release that speaks the same network protocol as the server.
 
 Each match is two rounds. One team hunts while the other runs, then they swap. Hunters tag Runners
