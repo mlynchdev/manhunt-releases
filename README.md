@@ -22,7 +22,8 @@ must use a release that speaks the same network protocol as the server.
 Each match is best of three rounds. One team hunts while the other runs, then they swap; at 1–1 a coin toss
 picks the Hunters for the deciding round. Hunters tag Runners (E or left click; the crosshair turns green when a
 tag will land) and walk them to jail, where a free teammate can tag them out. Hunters win a round by catching
-every Runner, Runners by keeping anyone free until time runs out.
+every Runner, Runners by keeping anyone free until time runs out. Every round starts with both teams at the base,
+and the Runners get a 15-second head start at four times their speed while the Hunters wait.
 
 ## Checking a download
 
