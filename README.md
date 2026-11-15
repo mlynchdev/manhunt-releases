@@ -7,9 +7,9 @@ This repository only hosts the game's downloads; there is no source code here.
 
 | Platform | File | Notes |
 |---|---|---|
-| macOS 11+ (Apple silicon and Intel) | `Manhunt-<version>-macos.zip` | signed and notarized by Apple: unzip, move to Applications, open |
-| Windows 10/11 (64-bit) | `Manhunt-<version>-windows-x86_64.zip` | unzip and run `Manhunt.exe`. Not code-signed yet: SmartScreen asks first, choose *More info → Run anyway* |
-| Linux (x86-64, with Vulkan drivers) | `Manhunt-<version>-linux-x86_64.tar.gz` | `tar -xzf` it, then `./Manhunt.x86_64` |
+| macOS 11+ (Apple silicon and Intel) | `Manhunt-<version>-macos.dmg` | signed and notarized by Apple: open the DMG and drag Manhunt to Applications |
+| Windows 10/11 (64-bit) | `Manhunt-<version>-windows-x86_64-setup.exe` | run it (per-user, no admin). Not code-signed yet: SmartScreen asks first, choose *More info → Run anyway*. The `.zip` is the same game for running from any folder |
+| Linux (x86-64, glibc, with Vulkan drivers) | `install-linux.sh` or `Manhunt-<version>-linux-x86_64.tar.gz` | `curl -fsSL https://github.com/mlynchdev/manhunt-releases/releases/latest/download/install-linux.sh \| sh` installs it for your user (no root); or `tar -xzf` the archive and run `./Manhunt.x86_64` |
 
 Keep everything in the unpacked folder together. `PLAYING.txt` inside explains joining and the controls.
 
@@ -32,5 +32,6 @@ Each release lists SHA-256 checksums in `SHA256SUMS`. On macOS or Linux: `shasum
 ## Status
 
 Early alpha for playtesting with friends. No accounts, no data collected: the game talks to the server you join
-and, from 0.11.0, asks GitHub once at startup whether a newer release is out (it sends only the game's version;
-turn it off under Options → *Check for updates*). When one is, the main menu shows a button that opens its download page.
+and, from 0.11.0, asks GitHub now and then whether a newer release is out (it sends only the game's version;
+turn it off under Options → *Check for updates*). When one is, the main menu shows an Update button: one click downloads the
+new version, checks it, installs it and restarts the game.
