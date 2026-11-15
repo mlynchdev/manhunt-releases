@@ -3,7 +3,10 @@
 A team-based 3D multiplayer chase-and-tag game: Hunters vs Runners, two teams of 3–4.
 This repository only hosts the game's downloads; there is no source code here.
 
-**[Download the latest release](https://github.com/mlynchdev/manhunt-releases/releases/latest)**
+**[Download the current release](https://github.com/mlynchdev/manhunt-releases/releases/latest)**
+
+There is only ever one release here: the current one. Older builds can't join the servers, so they are removed
+when a new release comes out. The game updates itself from the main menu.
 
 | Platform | File | Notes |
 |---|---|---|
